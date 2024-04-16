@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  *{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+body {
+  color: #ffffff;
+  background-size: cover;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 10px;
+  line-height: 22px;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: serif;
+  color: #000000;
+  font-weight: lighter;
+  letter-spacing: 30px;
+  background-color: #ffffff;
+}
+
+p{
+  font-style: normal;
+  color: white;
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: black;
+  border-style: groove;
+  border-radius: 30px;
+}
+.Pages a{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #296BFF;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  transition: 0.2s;
+  font-family: cursive;
+  border-style: solid;
+  border-color: #296BFF;
+}
+
+.Pages a:hover{
+  color: #000000;
+  background: #296BFF;
+  box-shadow: 0 0 10px #296BFF, 0 0 40px #296BFF, 0 0 80px #296BFF;
+  transition-delay: 0.5s;
+}
+.Footer{
+  padding: 20px;
+  font-size: 15px;
+  font-family: monospace;
+  letter-spacing: 5px;
+  text-align: left;
+  line-height: 25px;
+}
+
+.Footer a{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fc0303;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  transition: 0.2s;
+  font-family: cursive;
+  border-style: solid;
+  border-color: #fc0303;
+}
+
+.Footer a:hover{
+  color: #000000;
+  background: #fc0303;
+  box-shadow: 0 0 10px #fc0303, 0 0 40px #fc0303, 0 0 80px #fc0303;
+  transition-delay: 0.5s;
+}
+</style>
+  <title>ADMIN DASHBOARD</title>
+</head>
+<body background="pics/login/BG1.jpg">
+<h1>ADMIN DASHBOARD</h1>
+<br><br>
+
+<div class="Pages">
+  <a href="add_user.html" target="_self"=>Add User</a>
+  <br><br>
+  <a href="users.php" target="_self"=>List Users</a>
+  <br><br>
+  <a href="add_emergency.html" target="_self"=>Add Emergency</a>
+  <br><br>
+  <a href="emergencies.php" target="_self"=>List Emergencies</a>
+</div>
+<br><br><br>
+<div class="Footer">
+  <a href="index.php" target="_self"=>Home</a>
+</div>
+</body>
+</html>
